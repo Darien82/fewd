@@ -65,16 +65,20 @@ p6 {
   background-size: cover;
   height: 520px;
   font-size: 20px;
+  margin-top: 10px;
+ }
+
+ #now{
+  text-align: center;
+
  }
 
   #button{
-  font-style: extra bold;
-  font-size: 20px;
-  border-radius: 5px;
-  padding-left: 550px;
-
-
-  
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+    background-color: yellow;
+   
   }
 
   #section2 {
