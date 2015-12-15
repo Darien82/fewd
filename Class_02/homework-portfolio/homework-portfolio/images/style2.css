@@ -1,0 +1,59 @@
+ header{
+   text-align: center;
+   background: url("Nations_cap.png");
+   background-size: cover;
+   color: #F0FFFF;
+   height: 126px;
+}
+
+h1{
+   font-size: 70px;
+ }
+
+body{
+	font-family: Helvetica, Helvetica, Helvetica;
+    left: 485px;
+    background-color: #ccffcc;
+    background-position: center;
+}
+ul{
+   padding: 10px;
+   background: black;
+}
+
+ li{
+   display: inline;
+   padding: 0px 10px 0px 10px;
+}
+ 
+a{
+   color: #cc33ff;
+   font-family: Arial, Arial, Arial;
+   font-size: 30px;
+ }
+
+ 
+#interactive{
+	float: right;
+	padding-bottom: 50px;
+   padding-left: 750px;
+   left: 100px;
+}
+
+#startup{
+	float: right;
+	padding-bottom: 50px;
+   padding-left: 750px;
+   left: 100px;
+}
+
+
+#dcurry{
+  padding-bottom: 40px;
+  padding-right: 300px; 
+}
+
+
+#info{
+  color: cc33ff;
+}

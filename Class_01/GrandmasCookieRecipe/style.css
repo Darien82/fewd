@@ -1,0 +1,20 @@
+body {
+	background-color:#FFE;
+	background-image: url(".jpg");
+	width:100%;
+	height: 100%;
+	font-size:30px;
+}
+h4 {
+	color:#887;
+	font-size: 40px;
+	font-style: bold;
+}
+
+a {
+
+	color:#900;
+	font-size: 45px;
+	font-style:bold;
+}
+

@@ -1,0 +1,36 @@
+    body {
+      text-align: center;
+      background: url("https://www.iacac.org/wp-content/uploads/2014/03/government-relations-550.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+
+    #proPic{
+   		width: 220px;
+   		height: 220px;
+   		border-left: 200px;
+    	padding: 25px;
+    	border: 25px solid navy;
+    	margin: 25px;
+    }
+
+    #dcurry {
+    	width: auto;
+    	height: auto;
+    	max-width: 250px; 
+    	max-height: 250px;
+    }
