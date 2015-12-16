@@ -39,6 +39,9 @@ p {
 p4{
   font-style: italic;
 }
+span{
+  display: block;
+}
 
 button {
   background-color: #033048;
