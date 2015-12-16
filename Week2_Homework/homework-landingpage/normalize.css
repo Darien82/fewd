@@ -65,19 +65,20 @@ p6 {
   background-size: cover;
   height: 520px;
   font-size: 20px;
-  margin-top: 10px;
  }
 
  #now{
   text-align: center;
 
+
  }
 
   #button{
-    font-size: 15px;
-    height: 30px;
-    width: 150px;
-    background-color: yellow;
+    font-size: 20px;
+    height: 35px;
+    width: 155px;
+    background-color: #f9e42e;
+    color: #033048;
    
   }
 
@@ -101,7 +102,7 @@ p6 {
     }
 
   #banner {
-    background: yellow;
+    background: #f9e42e;
     height: 20px;
     text-align: center;
     padding: 45px;
@@ -114,6 +115,7 @@ p6 {
   color: white;
   text-align: center;
   padding: 20px 0px 50px 0px;
+
 
 
   }
