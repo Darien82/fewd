@@ -1,0 +1,45 @@
+body {
+  background: white;
+  margin: 0;
+}
+
+header {
+  background: purple;
+  color: white;
+  margin-bottom: 10px;
+
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  border: 5px double red;
+}
+
+section {
+  float: left;
+  width: 740px;
+  background-color: yellow;
+}
+
+aside {
+  float: left;
+  width: 180px;
+  margin-left: 20px;
+  padding: 10px;
+  background-color: red;
+  
+}
+
+aside div.post {
+  margin-bottom: 50px
+}
+
+aside img {
+  width: 100%;
+}
+
+footer {
+  background: red;
+  clear: both;
+}

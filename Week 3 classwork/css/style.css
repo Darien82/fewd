@@ -1,0 +1,79 @@
+body {
+  font-family: "Helvetica Neue", Helvetica;
+  background: red;
+}
+
+.container {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	background: purple;	
+}
+
+h1 {
+	margin: 0;
+	
+}
+
+
+header{
+	margin-bottom: 20px;
+	padding: 20px;
+	border-bottom: 2px solid black;
+	overflow: auto;
+}
+header h1{
+	font-style: italic;
+	font-family: "Times New Roman";
+
+}
+
+header nav {
+	float: left;
+}
+
+header #weather{
+	float: right;
+}
+
+article {
+	height: 300px;
+	margin-bottom: 20px;
+	float: left;
+	width: 720px;
+	padding: 20px;
+}
+
+span {
+	font-style: italic;
+	padding: 0px;
+	color: #e9eaed;
+}
+
+aside {
+	float: left;
+	width: 180px;
+	margin-left: 20px;
+	height: 340px;
+	display: block;
+}
+
+
+aside a {
+	padding-bottom: 100px;
+}
+
+footer {
+	padding: 20px;
+	clear: left;
+	overflow: auto;
+}
+footer a {
+	float: right;
+	overflow: auto;
+}
+
+header, article, aside, footer {
+	background: red;
+
+}
