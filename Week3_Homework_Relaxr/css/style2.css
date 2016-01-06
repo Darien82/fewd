@@ -1,15 +1,11 @@
-.about {
-  padding: 40px;
-}
 
-h1 {
-  padding: 10px;
-}
+
 header {
-  margin: 10px;
+  background: #033048;
+  color: white;
+  margin-bottom: 50px;
+  padding: 15px 0;
 }
-
-
 body {
  color: #606161;
  background: #f0efef;
@@ -19,64 +15,30 @@ body {
  font-family: 'Open Sans', Arial, sans-serif;
 }
 
-
- h2, h3, h4, h5, h6, a, p {
+h1, h2, h3, h4, h5, h6, a {
   color: #033048;
-}
-
-ul {
-  list-style-type: none;
-  padding: 10px;
-
 }
 
 a {
   font-size: 24px;
+  font-weight: 600;
   text-decoration: none;
-
 }
 
-.button {
-  display: block;
-  width: 280px;
-  padding: 12px 0;
-  border-radius: 5px;
-  margin: 0 auto;
-  text-align: center;
-  font-weight: 700;
-  font-size: 28px;
-}
-
-.container { 
-  margin: auto;
-  padding: 10px;
-}
-
-header {
-  background: #033048;
-  color: white;
-  margin-bottom: -14px;
-}
-
-section {
-  margin-bottom: 20px;
-}
-
-aside {
-  float: right;
-  width: 211px;
-  margin-left: 20px;
-  margin-bottom: 40px;
- 
+section#main {
+  width: 650px;
+  margin-bottom: 50px;
 }
 
 section#cta {
   background: #f9e42e;
 }
 
-footer {
-  padding: 1px;
+aside {
+  width: 240px;
+  margin-left: 20px;
 }
+
 
 h1.logo {
   font-size: 48px;
@@ -84,23 +46,26 @@ h1.logo {
   color: #fff;
 }
 
-
-
 header a {
   font-size: 24px;
   color: #f9e42e;
   display: inline-block;
-  padding: 30px;
+  padding: 20px;
+}
 
+article {
+  border-bottom: 2px solid;
 }
 
 article h2 {
   font-size: 40px;
-  font-weight: 600;
+  font-style: italic;
   margin-bottom: 20px;
 }
 
-
+article img {
+  margin-bottom: 20px;
+}
 
 article a {
   display: block;
@@ -108,6 +73,9 @@ article a {
   text-align: right;
 }
 
+aside {
+  margin-bottom: 50px;
+}
 
 aside h3 {
   font-size: 32px;
@@ -116,7 +84,6 @@ aside h3 {
 }
 
 aside nav a {
-  font-weight: 300;
   display: block;
 }
 
@@ -128,16 +95,17 @@ aside p {
 section#cta a {
   background: #033048;
   color: white;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
+
 
 footer {
   background: #121212;
   color: white;
-  font-weight: 200;
   font-size: 28px;
   text-align: center;
-
+  padding: 12px;
 }
 
 footer nav {
@@ -156,24 +124,37 @@ footer .logo {
 footer p {
   font-size: 16px;
   font-weight: 600;
-  color: white;
 }
 
-#part1 {
-  margin: 50px;
+.clear {
+  clear: both;
 }
 
-#part2 {
-  margin: 66px;
-  margin-bottom: 10px;
+.top {
+  overflow: auto;
 }
 
-#cta {
-height: 88px;
-margin-bottom: 0px;
+.list{
+  float: right;
+}
+
+.topbottom {
+  float: left;
 }
 
 
-#logo {
-  color: #ffff66;
+.button {
+  display: block;
+  width: 200px;
+  padding: 12px 0;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.container { 
+  width: 960px;
+  margin: auto;
 }
