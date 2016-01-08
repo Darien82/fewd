@@ -6,6 +6,14 @@ header {
   margin-bottom: 50px;
   padding: 15px 0;
 }
+
+header a {
+  font-size: 24px;
+  color: #f9e42e;
+  display: inline-block;
+  padding: 20px;
+}
+
 body {
  color: #606161;
  background: #f0efef;
@@ -46,12 +54,7 @@ h1.logo {
   color: #fff;
 }
 
-header a {
-  font-size: 24px;
-  color: #f9e42e;
-  display: inline-block;
-  padding: 20px;
-}
+
 
 article {
   border-bottom: 2px solid;
@@ -126,6 +129,11 @@ footer p {
   font-weight: 600;
 }
 
+.container { 
+  width: 960px;
+  margin: auto;
+}
+
 .clear {
   clear: both;
 }
@@ -142,7 +150,6 @@ footer p {
   float: left;
 }
 
-
 .button {
   display: block;
   width: 200px;
@@ -154,7 +161,4 @@ footer p {
   font-size: 28px;
 }
 
-.container { 
-  width: 960px;
-  margin: auto;
-}
+

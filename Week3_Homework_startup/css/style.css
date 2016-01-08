@@ -29,10 +29,18 @@ a {
 	color: white;
 }
 
+nav a {
+	color: white;
+}
+
 img {
 	margin-top: 0px;
 	height: 600px;
 	width: auto;
+}
+
+u {
+	color: yellow;
 }
 
   article {
