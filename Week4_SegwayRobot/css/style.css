@@ -35,7 +35,7 @@ button {
 
 #firstpage {
 	background-image: url(../images/dog_and_robot.png);
-	border: solid black 2px;
+	border: solid black 4px;
 	height: 450px;
 }
 
@@ -322,9 +322,11 @@ main h1 p{
 
 footer {
 	background-color: black;
-	color: white;
+	color: #00FFFF;
 	text-align: center;
 	font-size: 28px;
 
 }
+
+
 
