@@ -1,5 +1,5 @@
 body {
-  font-family: "Helvetica Neue", Helvetica;
+  font-family: "Raleway", Helvetica;
   background-color: #f0efef;
   margin: auto;
 }
@@ -36,7 +36,9 @@ button {
 #firstpage {
 	background-image: url(../images/dog_and_robot.png);
 	border: solid black 4px;
-	height: 450px;
+	height: 850px;
+	
+
 }
 
 #firstpage img{
