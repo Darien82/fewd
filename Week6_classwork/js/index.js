@@ -1,16 +1,52 @@
-   <form name="calculator" >
-    Solution<input type="textfield" name="ans" value="">
-    <br>
-    <input type="button" value="1" onClick="document.calculator.ans.value+='1'">
-  
-    <input type="button" value="+" onClick="document.calculator.ans.value+='+'">
-    <br>
-   
-    <input type="button" value="5" onClick="document.calculator.ans.value+='5'">
-    <input type="button" value="-" onClick="document.calculator.ans.value+='-'">
-    <br>
-  
-    <br>
-    <input type="clear" value="clear">
-    <input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
-    </form>
+console.log("hello");
+console.log("just testing it out")
+
+
+$("#zero").click(zero);
+$("#add1").click(add1);
+$("#sub1").click(sub1);
+$("#add5").click(add5);
+$("#sub5").click(sub5);
+
+
+//global scope
+var result;
+
+
+function zero() {
+    result = 0;
+    $("#result").html(result);
+
+    // local scope
+}
+
+
+function add5() {
+    result = result + 5;
+    
+    $("#result").html(result);
+
+    // body...
+}
+
+
+function sub5() {
+    result = result - 5;
+    $("#result").html(result);
+
+    // body...
+}
+
+
+function add1() {
+     result = result + 1;
+    $("#result").html(result);
+
+    // body...
+}
+
+function sub1 () {
+ result = result - 1;
+    $("#result").html(result);
+    // body...
+}
