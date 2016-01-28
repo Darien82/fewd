@@ -19,12 +19,15 @@ $(document).ready(function()
             inputVal1.val("");
             outputVal1.val("");
         }
-        else
+        else 
         {
             // calculate it, to 2 decimal points
             var calculatedVal1 = ( (9/5) *initialVal1 + 32 ).toFixed(2); 
-            // display square
-            outputVal1.val(calculatedVal1);
+            // display square and background color change
+            outputVal1.val(calculatedVal1) < 32;
+            $("body").css("background-color", "blue");
+            outputVal1.val(calculatedVal1) < 212;
+            $("body").css("background-color", "red");
 
         }
 
