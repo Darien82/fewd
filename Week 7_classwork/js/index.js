@@ -26,8 +26,7 @@ $(document).ready(function()
             // display square and background color change
             outputVal1.val(calculatedVal1) < 32;
             $("body").css("background-color", "blue");
-            //outputVal1.val(calculatedVal1) < 212;
-            //$("body").css("background-color", "red");
+         
 
         }
 
