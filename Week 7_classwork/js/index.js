@@ -26,6 +26,12 @@ $(document).ready(function()
             // display square and background color change
             outputVal1.val(calculatedVal1) < 32;
             $("body").css("background-color", "blue");
+
+            function celsiusToFahrenheit(degressCelsius){
+              var f = (degressCelsius * 9/5) + 32;
+              return f;
+
+            }
          
 
         }
