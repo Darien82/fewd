@@ -33,6 +33,7 @@
     }
     else if (city === "SYD" || city === "SYDNEY") {
       city = "SYDNEY";
+      // extra credit
       alert("WAIT!! I added two more cities for extra credit");
       alert("type DC");
     }
