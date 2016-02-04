@@ -5,6 +5,7 @@ var images = ["images/animal1.jpg","images/animal2.jpg","images/animal3.jpg",
 var newSrc;
 
 $("#next").click(nextImage);
+$("#previous").click(previousImage);
 
 function nextImage() {
 	console.log("nextImage fired");
@@ -13,4 +14,15 @@ function nextImage() {
 	newSrc = images[index];
 
 	$("#image").attr("src", newSrc);
+};
+
+
+//goes back to the previous image
+function previousImage() {
+
+	index -= 1;
+	newSrc = images[index];
+	$("#image").attr("src", newSrc);
+
+
 };
