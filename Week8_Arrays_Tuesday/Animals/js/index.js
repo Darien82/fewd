@@ -1,28 +1,40 @@
-var index = 0;
-var images = ["images/animal1.jpg","images/animal2.jpg","images/animal3.jpg",
-"images/animal4.jpg","images/animal5.jpg","images/animal6.jpg","images/animal7.jpg"];
+$(document).ready(function() {
+    $('#image').attr('src', images[0]);
+});
 
+var index = 0; // similar to var total = 0; in cash register codealong
+var images = ["images/animal1.jpg", "images/animal2.jpg", "images/animal3.jpg", "images/animal4.jpg", "images/animal5.jpg", "images/animal6.jpg", "images/animal7.jpg"];
+var lastIndex = images.length - 1;
 var newSrc;
 
-$("#next").click(nextImage);
-$("#previous").click(previousImage);
+//click functions for previous and next buttons
+$('#next').click(nextImage);
+$('#previous').click(prevImage);
 
+//function created to choose the next picture
 function nextImage() {
-	console.log("nextImage fired");
-	
-	index += 1;
-	newSrc = images[index];
+    if (index < lastIndex) {
+        index += 1;
+    } else {
+        index = 0;
+    }
 
-	$("#image").attr("src", newSrc);
-};
+    updateImage();
+}
 
+//function created to previous picture
+function prevImage() {
+    if (index > 0) {
+        index -= 1;
+    } else {
+        index = lastIndex;
+    }
+    
+    updateImage();
+}
 
-//goes back to the previous image
-function previousImage() {
-
-	index -= 1;
-	newSrc = images[index];
-	$("#image").attr("src", newSrc);
-
-
-};
+//function to update images utilizing the attr method
+function updateImage() {
+    newSrc = images[index];
+    $('#image').attr('src', newSrc);
+}
