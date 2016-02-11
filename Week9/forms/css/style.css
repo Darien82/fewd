@@ -1,0 +1,10 @@
+input[type="text"], input[type="email"], input[type="password"]{
+	font-size: 20px;
+	 padding: 10px;
+	 margin: 15px 0;
+	 width: 200px;
+}
+
+select{
+font-family: Times;
+}
