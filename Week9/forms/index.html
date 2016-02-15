@@ -1,51 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-  	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
-  	<meta name="keywords" content="one, two, three">
-	
-		<title>Forms</title>
-		
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
-		
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	</head>  
-	<body>
-		
-    <h1>Forms</h1>
-
-    <form method="GET"> 
-		<label for="form-first-name">First Name</label>
-    	<input type="text" placeholder="Your name here" id="firstname">
-    	
-    	<input type="email" placeholder="email">
-    	<input type="password" placeholder="password">
-    	<input type="submit" value="Sign Up">
-
-    	Agree To Terms
-    	<label>
-    		Yes
-    		<input>
-
-    	</label>
-
-    	<input type="checkbox">
-    	<input type="radio">
-    	<input type="file">
-    	<input type="button" value="Practice">
-    	<button type="reset">Reset</button>
-    	
-    	<select>
-    		<option value="LA">Los Angeles</option>
-    		<option value="DC">District Of Columbia</option>
-    		<option value="NY">New York</option>
-    	</select>
-    
-    </form>
-
-		<script src="js/index.js"></script>
-	</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Todo List</title>
+        <link rel="stylesheet" href="css/style.css" media="screen" type="text/css">
+    </head>
+    <body>
+        <div id="app">
+            <header>
+                <form id="new">
+                    <input id="newItem"> <button id="add">Add to List</button>
+                </form>
+            </header>
+            <ul id="todos"></ul>
+            <footer>
+                <div class="status">
+                    <p>
+                        You have <span id="count">0</span> todos left.
+                    </p>
+                </div>
+                <div class="controls">
+                    <button id="clear">Clear List</button>
+                    <button id="clearCompleted">Clear Completed</button>
+                </div>
+            </footer>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </body>
 </html>
