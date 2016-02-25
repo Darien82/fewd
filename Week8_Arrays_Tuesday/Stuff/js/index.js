@@ -1,3 +1,5 @@
+
+//forms vs inputs
 var clicks = 0;
 
 $('#blue > button').click(function() {
