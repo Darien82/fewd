@@ -1,3 +1,5 @@
+//picture wheel
+
 $(document).ready(function() {
     $('#image').attr('src', images[0]);
 });
