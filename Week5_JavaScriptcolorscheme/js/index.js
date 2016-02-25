@@ -1,5 +1,7 @@
 $('#grayButton').click(switchGray);
 
+//introduction into javascript section
+
 
 //document.getElementById('grayButton').onclick = switchGray;
 document.getElementById('whiteButton').onclick = switchWhite;
